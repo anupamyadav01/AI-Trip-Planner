@@ -1,4 +1,5 @@
 # AI Trip Planner
+Live demo: [https://gemini-ai-trip-planner.netlify.app/](https://gemini-ai-trip-planner.netlify.app/)
 
 ## Overview
 The **AI Trip Planner** is a comprehensive full-stack application designed to provide personalized trip recommendations to users. Utilizing cutting-edge technologies such as React, TailwindCSS, Gemini AI, and Firebase, this project aims to enhance user experience by offering dynamic, responsive, and intelligent trip planning solutions.
