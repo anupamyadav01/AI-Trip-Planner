@@ -1,4 +1,3 @@
-import { Input } from "@/components/ui/input";
 import { LuLoader2 } from "react-icons/lu";
 import {
   AI_PROMPT,
@@ -13,12 +12,11 @@ import { useContext, useEffect, useState } from "react";
 import { doc, setDoc } from "firebase/firestore";
 import { db } from "../utils/firebase/index";
 import { useNavigate } from "react-router-dom";
-// import userContext from "../context/userContext";
 
 const TripGenerator = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState([]);
-  const { showLoginBox, setShowLoginBox } = useContext(userContext);
+  const { setShowLoginBox } = useContext(userContext);
   const [loading, setLoading] = useState(false);
 
   const handleInputChange = (name, value) => {
@@ -128,7 +126,7 @@ const TripGenerator = () => {
           <h2 className="text-xl my-3 font-medium">
             How many days do you plan to stay?
           </h2>
-          <Input
+          <input
             type="number"
             placeholder={"Ex.3"}
             onChange={(e) => handleInputChange("noOfDays", e.target.value)}
