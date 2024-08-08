@@ -35,9 +35,6 @@ const TripGenerator = () => {
       toast.error("Please login first !!", {
         position: "top-right",
         duration: 2000,
-        style: {
-          background: "tomato",
-        },
       });
       setTimeout(() => {
         setShowLoginBox(true);
@@ -53,18 +50,12 @@ const TripGenerator = () => {
       toast.error("Please fill all the details !!", {
         position: "top-right",
         duration: 1000,
-        style: {
-          background: "tomato",
-        },
       });
       return;
     } else if (formData?.noOfDays > 10) {
       toast.error("No. of days should be less then 10", {
         position: "top-right",
         duration: 1000,
-        style: {
-          background: "tomato",
-        },
       });
       return;
     }
