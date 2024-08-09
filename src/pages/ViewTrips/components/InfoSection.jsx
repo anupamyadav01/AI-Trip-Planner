@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import { Button } from "@/components/ui/button";
 import bgimg from "../../../assets/background (2).jpg";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import { IoIosSend } from "react-icons/io";
 const InfoSection = ({ trip }) => {
   return (
@@ -35,8 +36,8 @@ const InfoSection = ({ trip }) => {
   );
 };
 
-InfoSection.propTypes = {
-  trip: PropTypes.object,
-};
+// InfoSection.propTypes = {
+//   trip: PropTypes.object,
+// };
 
 export default InfoSection;

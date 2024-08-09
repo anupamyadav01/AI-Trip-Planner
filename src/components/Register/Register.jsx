@@ -3,6 +3,7 @@ import auth from "../../utils/firebase/index";
 import { useContext } from "react";
 import userContext from "../../context/userContext";
 import { FcGoogle } from "react-icons/fc";
+import { IoClose } from "react-icons/io5";
 import {
   Dialog,
   DialogContent,
@@ -34,6 +35,14 @@ const Register = () => {
     <>
       <Dialog open={showLoginBox ? true : false}>
         <DialogContent>
+          <DialogTitle className="absolute right-4 top-3">
+            <div
+              className="p-2 bg-black text-white text-2xl cursor-pointer"
+              onClick={() => setShowLoginBox(false)}
+            >
+              <IoClose />
+            </div>
+          </DialogTitle>
           <DialogHeader>
             <DialogDescription>
               <div className=" w-full max-w-md p-8 space-y-8 bg-white">

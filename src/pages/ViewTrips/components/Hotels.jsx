@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 import bgimg from "../../../assets/background (2).jpg";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 const Hotels = ({ trip }) => {
   return (
     <div>
@@ -17,8 +18,8 @@ const Hotels = ({ trip }) => {
             target="_blank"
             key={index}
           >
-            <div>
-              <div className="hover:scale-105 cursor-pointer transition-all ">
+            <div className="hover:scale-105 cursor-pointer transition-all ">
+              <div>
                 <img src={bgimg} alt="" className="rounded-lg" />
               </div>
               <div className="my-2 flex flex-col">
@@ -31,12 +32,14 @@ const Hotels = ({ trip }) => {
           </Link>
         ))}
       </div>
+
+      {/* working here */}
     </div>
   );
 };
 
-Hotels.propTypes = {
-  trip: PropTypes.object,
-};
+// Hotels.propTypes = {
+//   trip: PropTypes.object,
+// };
 
 export default Hotels;

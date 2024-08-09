@@ -5,6 +5,7 @@ import Header from "../components/custom/Header";
 import userContext from "../context/userContext";
 import { useState } from "react";
 import ViewTrips from "../pages/ViewTrips/ViewTrips";
+import MyTrips from "../pages/MyTrips/MyTrips";
 const Router = () => {
   const [user, setUser] = useState([]);
   const [showLoginBox, setShowLoginBox] = useState(false);
@@ -18,6 +19,7 @@ const Router = () => {
           <Route path="/" element={<Home />} />
           <Route path="create-trip" element={<CreateTrip />} />
           <Route path="/view-trips/:id" element={<ViewTrips />} />
+          <Route path="/my-trips" element={<MyTrips />} />
         </Routes>
       </userContext.Provider>
     </BrowserRouter>

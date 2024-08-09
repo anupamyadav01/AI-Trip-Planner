@@ -83,13 +83,14 @@ const TripGenerator = () => {
       userEmail: user?.email,
       id: docID,
     });
-    setLoading(false);
+
     toast.success("Trip Generated !!", {
       position: "top-right",
       duration: 1000,
     });
 
     navigate(`/view-trips/${docID}`);
+    setLoading(false);
   };
 
   return (

@@ -1,0 +1,115 @@
+{
+  "hotels": [
+    {
+      "hotelName": "The Raj Palace",
+      "address": "Bani Park, Jaipur, Rajasthan 302016",
+      "price": "$150 per night",
+      "imageUrl": "https://example.com/therajpalace.jpg",
+      "geoCoordinates": { "latitude": 26.9233, "longitude": 75.8257 },
+      "rating": 4.5,
+      "description": "A heritage hotel in a grand palace setting, offering luxurious accommodations and traditional Rajasthani hospitality."
+    },
+    {
+      "hotelName": "The Oberoi Rajvilas, Jaipur",
+      "address": "Goner Road, Jaipur, Rajasthan 302020",
+      "price": "$350 per night",
+      "imageUrl": "https://example.com/theoberoi.jpg",
+      "geoCoordinates": { "latitude": 26.9199, "longitude": 75.7965 },
+      "rating": 4.8,
+      "description": "A sprawling luxury resort with beautiful gardens, a spa, and opulent rooms. Ideal for a relaxing getaway."
+    },
+    {
+      "hotelName": "ITC Rajputana, Jaipur",
+      "address": "Civil Lines, Jaipur, Rajasthan 302001",
+      "price": "$180 per night",
+      "imageUrl": "https://example.com/itc.jpg",
+      "geoCoordinates": { "latitude": 26.9258, "longitude": 75.8166 },
+      "rating": 4.3,
+      "description": "A stylish hotel in the heart of Jaipur, offering comfortable rooms, multiple dining options, and a rooftop pool."
+    }
+  ],
+  "itinerary": {
+    "day1": {
+      "bestTimeToVisit": "Morning",
+      "places": [
+        {
+          "placeName": "Amber Fort",
+          "details": "A majestic hilltop fort with stunning architecture and panoramic views. Don't miss the Sheesh Mahal (Mirror Palace).",
+          "imageUrl": "https://example.com/amberfort.jpg",
+          "geoCoordinates": { "latitude": 26.9855, "longitude": 75.8513 },
+          "ticketPrice": "$5 for Indians / $50 for Foreigners (approx.)",
+          "rating": 4.8,
+          "timeToTravel": "30-45 minutes from Jaipur city center"
+        },
+        {
+          "placeName": "Jal Mahal (Water Palace)",
+          "details": "A picturesque palace seemingly floating in the middle of Man Sagar Lake. Enjoy the views from the shore.",
+          "imageUrl": "https://example.com/jalmahal.jpg",
+          "geoCoordinates": { "latitude": 26.9383, "longitude": 75.8343 },
+          "ticketPrice": "Entry is restricted; enjoy views from the shore.",
+          "rating": 4.4,
+          "timeToTravel": "15-20 minutes from Amber Fort"
+        },
+        {
+          "placeName": "Hawa Mahal (Wind Palace)",
+          "details": "An iconic palace with a unique honeycomb-like facade, designed for royal ladies to observe street life.",
+          "imageUrl": "https://example.com/hawamahal.jpg",
+          "geoCoordinates": { "latitude": 26.9239, "longitude": 75.8267 },
+          "ticketPrice": "$2 for Indians / $10 for Foreigners (approx.)",
+          "rating": 4.6,
+          "timeToTravel": "15-20 minutes from Jal Mahal"
+        },
+        {
+          "placeName": "City Palace",
+          "details": "A sprawling palace complex with museums, courtyards, and gardens showcasing royal heritage.",
+          "imageUrl": "https://example.com/citypalace.jpg",
+          "geoCoordinates": { "latitude": 26.9263, "longitude": 75.8231 },
+          "ticketPrice": "$10 for Indians / $25 for Foreigners (approx.)",
+          "rating": 4.7,
+          "timeToTravel": "5-10 minutes from Hawa Mahal"
+        }
+      ]
+    },
+    "day2": {
+      "bestTimeToVisit": "Morning",
+      "places": [
+        {
+          "placeName": "Nahargarh Fort",
+          "details": "Another hilltop fort offering panoramic city views, especially stunning at sunset.",
+          "imageUrl": "https://example.com/nahargarhfort.jpg",
+          "geoCoordinates": { "latitude": 26.9393, "longitude": 75.8447 },
+          "ticketPrice": "$2 for Indians / $8 for Foreigners (approx.)",
+          "rating": 4.5,
+          "timeToTravel": "30-45 minutes from Jaipur city center"
+        },
+        {
+          "placeName": "Jaigarh Fort",
+          "details": "Connected to Nahargarh Fort, this fort houses the Jaivana cannon, one of the world's largest.",
+          "imageUrl": "https://example.com/jaigarhfort.jpg",
+          "geoCoordinates": { "latitude": 26.9475, "longitude": 75.8369 },
+          "ticketPrice": "$3 for Indians / $15 for Foreigners (approx.)",
+          "rating": 4.6,
+          "timeToTravel": "15-20 minutes from Nahargarh Fort"
+        },
+        {
+          "placeName": "Panna Meena ka Kund",
+          "details": "An ancient stepwell with intricate geometric patterns, a great spot for photography.",
+          "imageUrl": "https://example.com/pannameenakakund.jpg",
+          "geoCoordinates": { "latitude": 26.9414, "longitude": 75.8347 },
+          "ticketPrice": "Free entry",
+          "rating": 4.3,
+          "timeToTravel": "10-15 minutes from Jaigarh Fort"
+        },
+        {
+          "placeName": "Albert Hall Museum",
+          "details": "Jaipur's oldest museum, housing a diverse collection of artifacts, paintings, and sculptures.",
+          "imageUrl": "https://example.com/alberthallmuseum.jpg",
+          "geoCoordinates": { "latitude": 26.9079, "longitude": 75.8172 },
+          "ticketPrice": "$1 for Indians / $5 for Foreigners (approx.)",
+          "rating": 4.4,
+          "timeToTravel": "30-45 minutes from Panna Meena ka Kund"
+        }
+      ]
+    }
+  }
+}

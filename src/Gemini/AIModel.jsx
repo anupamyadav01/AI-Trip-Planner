@@ -6,7 +6,7 @@ const genAI = new GoogleGenerativeAI(apiKey);
 const model = genAI.getGenerativeModel({
   model: "gemini-1.5-flash",
   systemInstruction:
-    "Generate Travel Plan for Location: Jaipur Rajasthan, for 3 Days for Couple with a Cheap budget, Give me a Hotels options list with HotelName, Hotel address, Price, hotel image url, geo coordinates, rating, description and suggest itinerary with PlaceName, Place details, Place Image url , Geo coordinates, ticket Priciing , Time t travel each of the location for 3days with each day plan with best time to visit in JSON format",
+    "Generate Travel Plan for Location: Jaipur Rajasthan, for 3 Days for Couple with a Cheap budget, Give me a Hotels options list with HotelName, Hotel address, Price, hotel image url, geo coordinates, rating, description and suggest itinerary with PlaceName, Place details, Place Image url , Geo coordinates, ticket Priciing , Time t travel each of the location for 3days with each day plan with best time to visit in proper JSON format ",
 });
 
 const generationConfig = {
@@ -24,7 +24,7 @@ export const chatSession = model.startChat({
       role: "user",
       parts: [
         {
-          text: "Generate Travel Plan for Location: Jaipur Rajasthan, for 3 Days for Couple with a Cheap budget, Give me a Hotels options list with HotelName, Hotel address, Price, hotel image url, geo coordinates, rating, description and suggest itinerary with PlaceName, Place details, Place Image url , Geo coordinates, ticket Pricing, Rating , Time t travel each of the location for 3days with each day plan with best time to visit in JSON format",
+          text: "Generate Travel Plan for Location: Jaipur Rajasthan, for 3 Days for Couple with a Cheap budget, Give me a Hotels options list with HotelName, Hotel address, Price, hotel image url, geo coordinates, rating, description and suggest itinerary with PlaceName, Place details, Place Image url , Geo coordinates, ticket Pricing, Rating , Time t travel each of the location for 3days with each day plan with best time to visit in Proper JSON format",
         },
       ],
     },
